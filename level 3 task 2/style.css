@@ -1,0 +1,104 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4caf50;
+  padding: 20px;
+  text-align: center;
+}
+img {
+  height: 100px;
+  align-content: start;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+main {
+  padding: 50px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+.intro h2 {
+  text-align: center;
+}
+
+.intro p {
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+.highlights h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.qualifications h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.cta {
+  text-align: center;
+}
+
+.button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
+
+.cta p {
+  display: inline-block;
+}
+
+a {
+  color: #4caf50;
+}
+.cts p {
+  color: #4caf50;
+}
+footer {
+  background-color: #4caf50;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Responsiveness */
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.5em;
+  }
+}
+
+main {
+  background-color: #f0f0f0;
+}
